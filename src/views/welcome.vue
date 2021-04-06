@@ -12,6 +12,9 @@
 			"
 		/>
 		<h1>{{ data.appName }}</h1>
+		<p @click="$router.push({
+			path: '/goBang'
+		})">五子棋</p>
 	</div>
 </template>
 

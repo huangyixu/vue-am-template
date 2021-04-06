@@ -21,6 +21,11 @@ const routes = [
 		path: '/page2',
 		name: 'Page2',
 		component: () => import('../views/page2.vue')
+	},
+	{
+		path: '/gobang',
+		name: 'Gobang',
+		component: () => import('../views/gobang.vue')
 	}
 ]
 

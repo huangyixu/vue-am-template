@@ -1,3 +1,23 @@
+html {
+	overflow: -moz-hidden-unscrollable;
+	height: 100%;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	-ms-overflow-style: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
 /* Flex布局混合器 */
 @mixin flex($direction: column, $align: normal, $justify: normal) {
 	display: flex;
